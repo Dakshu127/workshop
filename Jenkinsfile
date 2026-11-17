@@ -4,7 +4,7 @@ pipeline
   
   environment
   {
-    M2=/opt/maven/bin
+    M2="/opt/maven/bin"
 
     PATH=$PATH:$M2
   }
