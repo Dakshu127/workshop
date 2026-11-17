@@ -4,9 +4,7 @@ pipeline
   
   environment
   {
-    M2="/opt/maven/bin"
-
-    PATH=$PATH:$M2
+    PATH="/opt/maven/bin:$PATH"
   }
   
   stages
