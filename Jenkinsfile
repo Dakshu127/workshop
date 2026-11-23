@@ -39,7 +39,7 @@ pipeline
     
       steps
 
-      { 
+     { 
 
       withSonarQubeEnv('sonarqube_server')
       
@@ -48,8 +48,7 @@ pipeline
          sh '${scannerHome}/bin/sonar-scanner'
        }
 
-      }
-
-    }      
+     }
+   }
  }
-
+}
